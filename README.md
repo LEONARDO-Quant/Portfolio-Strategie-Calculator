@@ -2,7 +2,7 @@
   <img src="docs/banner" alt="Bannière du projet" width="1000" height="250"/>
 </p> 
 
-# Portfolio Strategy Simulator
+# Portfolio Strategy Simulator App
 
 Projet de niveau master 1 dans le cadre de la formation Sorbonne Data Analytics.   
 Application de modèles économétriques dans l'analyse stratégique d'un portefeuille d'actifs : Évaluation de la performance, analyse du risque et recommandations stratégiques pour un portefeuille d’actions diversifié.
@@ -61,10 +61,11 @@ pip install -r requirements.txt
 ```
 portfolio_simulator_v2_modular/
 ├─ app.py                # Lanceur Streamlit
+├─ docs/
 ├─ src/
 │  ├─ __init__.py
 │  ├─ data.py           # Chargement des données (yfinance, CSV)
-│  ├─ utils.py          # Aides (sanitise, pct_returns)
+│  ├─ outils.py         # Aides (sanitise, pct_returns)
 │  ├─ types.py          # Dataclasses (BacktestResult)
 │  ├─ metrics.py        # KPIs (Sharpe, Sortino, Drawdown, VaR, beta/alpha)
 │  ├─ strategies.py     # Stratégies (Buy&Hold, MA Crossover, Vol Target)
