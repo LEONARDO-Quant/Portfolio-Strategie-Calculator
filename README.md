@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="Images/banner.png" alt="Bannière du projet" width="1000" height="250"/>
-</p>
+  <img src="Images/banner" alt="Bannière du projet" width="1000" height="250"/>
+</p> 
 
 # Portfolio Strategy Simulator
 
